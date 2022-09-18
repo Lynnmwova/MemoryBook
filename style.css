@@ -13,6 +13,7 @@
    /* background: #D7F9F4; */
     background-color: #D9AFD9;
     background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    align-items: center;
 
   }
   
@@ -45,7 +46,7 @@
   .card-container {
     width: 90%;
     margin: 0 auto;
-    padding: 0.5em 0;
+    padding: 20px;
   }
   
   .intro-text {
@@ -62,16 +63,21 @@
   .memory-card {
     width: 90%;
     margin: 0.5em auto;
-    background-color: #0d9c90;
+    background-color: #0d9c90; 
+    box-shadow: #97D9E1;
+    border-radius:  6px; 
+    justify-content: center;
   }
   
   .memory-image {
     width: 90%;
     margin: 0 auto;
     padding: 1.2em 1em;
+
   }
   
   .memory-image img {
+    border-radius: 6px;
     display: block;
     margin: 0 auto;
     max-width: 100%;
