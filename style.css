@@ -128,6 +128,4 @@
 transform: translateY(40px);
 
   }
-  .card-container:hover .memory-card{
-    transform: translate(-80px);
-  }
+  
